@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background: #272727;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#svgOutput, #svgOutput2 {
+    width: 300px;
+    height: 300px;
+}
+
+svg {
+    width: 100%;
+}
+
+textarea.form-control {
+    background-color: transparent;
+    color: #f0f0f0;
+}
+
+textarea.form-control:focus {
+    background-color: transparent;
+	color: #f0f0f0;
+}
